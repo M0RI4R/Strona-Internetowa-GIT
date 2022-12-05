@@ -11,6 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -47,13 +54,15 @@
       <section class="section-two">
         <ul>
           <li>
-            <img
-              class="images"
-              src="images/Vector1.svg"
-              alt="box1"
-              width="65px"
-              height="70px"
-            />
+            <div class="frame">
+              <img
+                class="images"
+                src="images/Vector1.svg"
+                alt="box1"
+                width="65px"
+                height="70px"
+              />
+            </div>
             <h4>Lorem ipsum</h4>
 
             <p>
@@ -64,13 +73,15 @@
             </p>
           </li>
           <li>
-            <img
-              class="images"
-              src="images/Vector2.svg"
-              alt="box2"
-              width="65px"
-              height="70px"
-            />
+            <div class="frame">
+              <img
+                class="images"
+                src="images/Vector2.svg"
+                alt="box2"
+                width="65px"
+                height="70px"
+              />
+            </div>
             <h4>Lorem ipsum</h4>
 
             <p>
@@ -81,13 +92,15 @@
             </p>
           </li>
           <li>
-            <img
-              class="images"
-              src="images/Vector3.svg"
-              alt="box3"
-              width="65px"
-              height="70px"
-            />
+            <div class="frame">
+              <img
+                class="images"
+                src="images/Vector3.svg"
+                alt="box3"
+                width="65px"
+                height="70px"
+              />
+            </div>
             <h4>Lorem ipsum</h4>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
@@ -97,13 +110,15 @@
             </p>
           </li>
           <li>
-            <img
-              class="images"
-              src="images/Vector4.svg"
-              alt="box4"
-              width="65px"
-              height="70px"
-            />
+            <div class="frame">
+              <img
+                class="images"
+                src="images/Vector4.svg"
+                alt="box4"
+                width="65px"
+                height="70px"
+              />
+            </div>
             <h4>Lorem ipsum</h4>
 
             <p>
@@ -179,29 +194,49 @@
       </section>
     </main>
     <footer>
-      <p>
-        <a class="logo-footer" href="./index.html"
-          ><span class="logo-span-footer">Web</span>studio</a
-        >
-      </p>
-      <address>
-        <ul>
+      <aside>
+        <p>
+          <a class="logo-footer" href="./index.html"
+            ><span class="logo-span-footer">Web</span>studio</a
+          >
+        </p>
+
+        <address>
+          <ul>
+            <li>
+              <a
+                href="https://goo.gl/maps/fpFLWWPsr6rQL3Bp8"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >m.Warszawa, Aleje Jerozolimskie 21</a
+              >
+            </li>
+            <li>
+              <a class="gray" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li><a class="gray" href="tel:+48111111111">+48 111 111 111</a></li>
+          </ul>
+        </address>
+      </aside>
+      <main>
+        <h4 class="hmedia">dołącz do nas</h4>
+        <ul class="social-media">
           <li>
-            <a
-              href="https://goo.gl/maps/fpFLWWPsr6rQL3Bp8"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >m.Warszawa, Aleje Jerozolimskie 21</a
-            >
+            <a href="#"><i class="fab fa-instagram"></i></a>
           </li>
           <li>
-            <a class="gray" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <a href="#"><i class="fab fa-twitter"></i></a>
           </li>
-          <li><a class="gray" href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
         </ul>
-      </address>
+      </main>
     </footer>
   </body>
 </html>
