@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+
+    <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/501885fef0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <form class="popup">
+      <button type="button" class="close-form">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <h2 class="popup-header">Zostaw swoje dane w formularzu poniżej</h2>
+      <div class="float-form">
+        <i class="fa-regular fa-user"></i>
+        <label for="name">Imię</label>
+        <input
+          name="name"
+          id="name"
+          placeholder="Michał"
+          required
+          class="form-control"
+        />
+      </div>
+      <div class="float-form">
+        <i class="fa-solid fa-phone"></i>
+        <label for="phone">Telefon</label>
+        <input id="phone" name="tel" required class="form-control" />
+      </div>
+      <div class="float-form">
+        <i class="fa-regular fa-envelope"></i>
+        <label for="email">Email</label>
+        <input id="email" name="email" required class="form-control" />
+      </div>
+      <div class="float-form">
+        <i class="fa-regular fa-comment"></i>
+        <label for="comment">Komentarz</label>
+        <textarea
+          class="textarea"
+          id="comment"
+          name="comment"
+          placeholder="Wprowadź tekst"
+          class="form-control"
+        ></textarea>
+      </div>
+      <div class="policy">
+        <input type="checkbox" required />
+        <label
+          >Oświadczam iż akceptuję
+          <a href="./index.html" style="color: var(--brand-color)">Regulamin</a>
+          i
+          <a href="./index.html" style="color: var(--brand-color)"
+            >Politykę Prywatności.</a
+          ></label
+        >
+      </div>
+      <button class="form-button" type="submit">Wyślij</button>
+    </form>
+    <script src="/index.js"></script>
+  </body>
+</html>
