@@ -15,7 +15,7 @@ const a2 = document.createElement("a");
 const a3 = document.createElement("a");
 const a4 = document.createElement("a");
 a1.textContent = "Facebook";
-a2.textContent = "Tweeter";
+a2.textContent = "Twitter";
 a3.textContent = "Instagram";
 a4.textContent = "LinkedIn";
 header.append(ulList);
